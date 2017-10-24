@@ -654,13 +654,13 @@ a {
   height: 100%;
   opacity: 1;
 }
-// #header .profilepic:hover {
-//   -webkit-animation: btnGroups 1s linear;
-//   -webkit-animation: btnGroups 1s linear;
-//   -moz-animation: btnGroups 1s linear;
-//   -ms-animation: btnGroups 1s linear;
-//   animation: btnGroups 1s linear;
-// }
+#header .profilepic:hover {
+  -webkit-animation: btnGroups 1s linear;
+  -webkit-animation: btnGroups 1s linear;
+  -moz-animation: btnGroups 1s linear;
+  -ms-animation: btnGroups 1s linear;
+  animation: btnGroups 1s linear;
+}
 @-webkit-keyframes btnGroups {
   0% {
     -webkit-transform: scale(1.2, 0.8);
